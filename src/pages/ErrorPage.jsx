@@ -6,9 +6,7 @@ function ErrorPage() {
   if (error.status === 404) {
     return (
       <div className="text-centar pt-10 h-lvh">
-        <h1 className="text-center mb-5 text-3xl font-bold">
-          👇PageNotFound👇
-        </h1>
+        <h1 className="text-center mb-5 text-3xl font-bold">Page not found.</h1>
         <p className="mb-5 text-center text-xl">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias
           rem corporis veritatis sint, velit at nobis eum consectetur, autem

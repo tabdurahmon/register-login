@@ -7,7 +7,6 @@ function Product({ product }) {
         <img
           className="w-48 card glass border-r-8 lg:w-40"
           src={product.thumbnail}
-          alt="car!"
         />
       </Link>
       <div className="card-body w-full">
